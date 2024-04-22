@@ -8,8 +8,7 @@ This repository contains documentation, data files, and code for analyzing custo
 ## Contents
 - [Questions](#questions)
 - [Tasks](#tasks)
-- [Code Explanation](#code-explanation)
-- [Answering the Questions](#answering-the-questions)
+- [Documentation](#documentation)
 
 ## Questions
 ### Question 1
@@ -40,26 +39,5 @@ Which demographic factors (e.g. household size, presence of children, income) ap
 ### TASK 6: Load Datasets
 - Loading sample datasets for testing.
 
-## Code Explanation
-### Data Loading and Preprocessing
-- Loading datasets: households, products, and transactions.
-- Preprocessing steps: handling missing values, data type conversion, one-hot encoding.
-
-### Building and Evaluating Linear Regression Model
-- Training and evaluation of a linear regression model.
-- Visualization of model performance.
-
-### Analyzing Feature Coefficients
-- Extraction and analysis of feature coefficients.
-- Identification of top features affecting customer engagement.
-
-### Analyzing Category Coefficients
-- Analysis of coefficients associated with categories to determine growth or decline.
-
-## Answering the Questions
-### What categories are growing or shrinking with changing customer engagement?
-- Analysis of category coefficients to identify growing or shrinking categories.
-
-### Which demographic factors appear to affect customer engagement?
-- Utilization of linear regression model to analyze the impact of demographic factors.
-- Extraction and analysis of feature coefficients.
+## Documentation
+- For documentation refer to [Doc](#8451_doc.pdf)
