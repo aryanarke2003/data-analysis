@@ -1,44 +1,39 @@
-# 8451 Data Analysis Documentation
+# 8451 Data Analysis Repository
 
-Authors: Arya Narke, Ameya Deshmukh, Om Gaikwad
-## Link to Instance
-[http://34.132.94.170/](http://34.132.94.170/)
-## Overview
-This repository contains documentation, data files, and code for analyzing customer engagement data. The analysis focuses on understanding the factors influencing customer engagement, including category growth or decline and the impact of demographic factors.
+This repository contains data files, a Jupyter Notebook, and a Flask web application for analyzing and visualizing data related to household products.
 
-## Contents
-- [Questions](#questions)
-- [Tasks](#tasks)
-- [Documentation](#documentation)
+## Description
 
-## Questions
-### Question 1
-What categories are growing or shrinking with changing customer engagement?
+The repository contains the following items:
 
-### Question 2
-Which demographic factors (e.g. household size, presence of children, income) appear to affect customer engagement?
+- `flaskapp`: Folder containing the Flask web application code.
+- `LinearRegression.ipynb`: Jupyter Notebook implementing linear regression analysis on the provided data.
+- `data2.zip`: Compressed file containing the data files in CSV format.
+- `README.md`: Markdown file providing information about the repository.
 
-## Tasks
-### TASK 1: ML Write-up
-- Explanation of Linear Regression, Random Forest, and Gradient Boosting Algorithms.
-- Predictive Modeling Technique Selection.
+### Flask App
 
-### TASK 2: Launch web server
-- Configuration of web server using Google Compute Engine and Google Cloud SQL.
+The Flask application in the `flaskapp` folder includes:
 
-### TASK 3: Create Database and Sample Data Pull for HSHD_NUM #10
-- Importing data from Google Storage Buckets to Google Cloud SQL.
-- Data analysis using pandas dataframe.
-
-### TASK 4: Search Based on HSHD_NUM
-
-### TASK 5: Dashboard with Plot and Answer
-- Analysis of customer engagement.
-- Correlation coefficient calculation.
-- Interpretation of results.
-
-### TASK 6: Load Datasets
-- Loading sample datasets for testing.
+- `templates`: Folder containing HTML templates for the web application.
+- `400_households.csv`: CSV file containing household data.
+- `400_products.csv`: CSV file containing product data.
+- `flaskapp.py`: Python script for running the Flask application.
+- `flaskapp.wsgi`: WSGI script for deploying the Flask app.
 
 ## Documentation
-- For documentation refer to [8451_doc.pdf](#8451_doc.pdf)
+
+The documentation for the data analysis can be found in the `8451_doc.pdf` file in the repository.
+
+### Authors
+
+- Arya Narke
+- Ameya Deshmukh
+- Om Gaikwad
+
+## Access
+
+The Flask web application can be accessed through the following link:
+
+[8451 Data Analysis Web App](http://34.132.94.170/)
+
