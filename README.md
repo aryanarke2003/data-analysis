@@ -16,8 +16,6 @@ The repository contains the following items:
 The Flask application in the `flaskapp` folder includes:
 
 - `templates`: Folder containing HTML templates for the web application.
-- `400_households.csv`: CSV file containing household data.
-- `400_products.csv`: CSV file containing product data.
 - `flaskapp.py`: Python script for running the Flask application.
 - `flaskapp.wsgi`: WSGI script for deploying the Flask app.
 
