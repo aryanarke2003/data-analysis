@@ -29,7 +29,7 @@ The Flask application in the `flaskapp` folder includes:
 
 The documentation for the data analysis can be found in the `8451_doc.pdf` file in the repository.
 
-### Authors
+## Authors
 
 - Arya Narke
 - Ameya Deshmukh
