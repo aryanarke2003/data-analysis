@@ -14,7 +14,7 @@ from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:12345678@34.72>
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:12345678@34.72.201.236:3306/cloud-db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
