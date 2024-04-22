@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Households Data</title>
+</head>
+<body>
+    <h1>Households Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>HSHD_NUM</th>
+                <th>L</th>
+                <th>AGE_RANGE</th>
+                <th>MARITAL</th>
+                <th>INCOME_RANGE</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for household in households %}
+            <tr>
+                <td>{{ household.HSHD_NUM }}</td>
+                <td>{{ household.L }}</td>
+                <td>{{ household.AGE_RANGE }}</td>
+                <td>{{ household.MARITAL }}</td>
+                <td>{{ household.INCOME_RANGE }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
