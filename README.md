@@ -2,6 +2,12 @@
 
 This repository contains data files, a Jupyter Notebook, and a Flask web application for analyzing and visualizing data related to household products.
 
+## Access
+
+The Flask web application can be accessed through the following link:
+
+[8451 Data Analysis Web App](http://34.132.94.170/)
+
 ## Description
 
 The repository contains the following items:
@@ -29,9 +35,5 @@ The documentation for the data analysis can be found in the `8451_doc.pdf` file 
 - Ameya Deshmukh
 - Om Gaikwad
 
-## Access
 
-The Flask web application can be accessed through the following link:
-
-[8451 Data Analysis Web App](http://34.132.94.170/)
 
