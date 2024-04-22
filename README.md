@@ -31,7 +31,6 @@ Which demographic factors (e.g. household size, presence of children, income) ap
 - Data analysis using pandas dataframe.
 
 ### TASK 4: Search Based on HSHD_NUM
-- [Details to be filled]
 
 ### TASK 5: Dashboard with Plot and Answer
 - Analysis of customer engagement.
