@@ -40,4 +40,4 @@ Which demographic factors (e.g. household size, presence of children, income) ap
 - Loading sample datasets for testing.
 
 ## Documentation
-- For documentation refer to [Doc](#8451_doc.pdf)
+- For documentation refer to [8451_doc.pdf](#8451_doc.pdf)
